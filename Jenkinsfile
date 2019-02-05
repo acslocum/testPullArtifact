@@ -11,7 +11,7 @@ pipeline {
                             "files": [
                                     {
                                         "pattern": "pss/Screen%20Shot%202019-02-01%20at%209.16.28%20PM.png",
-                                        "target": "test/",
+                                        "target": "test"
                                     }
                                 ]
                             }"""
