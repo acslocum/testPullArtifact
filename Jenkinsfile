@@ -16,6 +16,9 @@ pipeline {
                                 ]
                             }"""
                 )
+                sh "pwd"
+                sh "ls -al"
+                sh "unzip -l test.zip"
             }
         }
     }
