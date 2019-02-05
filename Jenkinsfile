@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage ('Clone') {
-            steps {
-                git branch: 'master', url: "git@github.com:acslocum/testPullArtifact.git"
-            }
-        }
 
         stage ('Download') {
             steps {
