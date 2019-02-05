@@ -10,7 +10,7 @@ pipeline {
                     spec: """{
                             "files": [
                                     {
-                                        "pattern": "pss-local/PS%20Suite/build-info/master/build-26/"
+                                        "pattern": "pss-local/PS%20Suite/build-info/master/build-26/*"
                                     }
                                 ]
                             }"""
