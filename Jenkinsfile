@@ -10,8 +10,8 @@ pipeline {
                     spec: """{
                             "files": [
                                     {
-                                        "pattern": "pss/Screen%20Shot%202019-02-01%20at%209.16.28%20PM.png",
-                                        "target": ""
+                                        "pattern": "pss-local/PS%20Suite/build-info/master/build-26/PSS.Build.Info.zip",
+                                        "target": "test.zip"
                                     }
                                 ]
                             }"""
